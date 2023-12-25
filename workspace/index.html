@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+
+    <head>
+
+        <meta name="Viewport" content="width-device-width"/>
+
+        <link rel="stylesheet" type="text/css" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+        <title>eliessprofile</title>
+
+    </head>
+
+    <body>
+
+        <div id="one">
+
+            <div class="un">
+    
+                <a class="deux" href="eliess CV.pdf">Curriculum Vitae (CV)</a>
+
+                <a class="deux" href="">Lettre de motivation</a>
+                
+            </div>
+    
+        </div>
+
+        <h1 class="title"></h1>
+
+        <img id="two" src="https://cherrypulp.com/content/uploads/2019/06/cherry-pulp-articles-banques-images-gratuites.jpg" />
+
+        <div id="three">
+
+        <p class="trois" href="">&copyeliesskreir</p>
+
+        </div>
+        
+
+
+        <script type="text/javascript">
+        function hover(str) { let split = str.split(''); 
+        split.forEach(letter =>{ let span = document.createElement('span'); 
+        span.innerHTML = letter; document.querySelector('.title').appendChild(span) }); 
+        let spans = document.querySelectorAll('.title span'); spans.forEach(span => { span.addEventListener('mouseover', () => { span.classList.add('hover'); });
+        span.addEventListener('mouseleave', () => { span.classList.remove('hover'); }) }); }
+        hover("Welcome.to.Eliess'.profile");
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background-color: #184052; 
+	color: white;
+}
+.tableau{
+	display: flex;
+	justify-content: center;
+}
+figcaption {
+	padding: 5px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+.orange {
+	background-color: rgb(233,186,107);
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	padding-bottom: 150px; 
+}
+* {
+	margin-left: 0;
+}
+.orange p {
+	float: right;
+	padding-right: 50px;
+	color: black;
+}
+

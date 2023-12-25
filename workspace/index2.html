@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AutoKing</title>
+
+</head>
+<body>
+<table border="1" width="400" height="200">
+    <form method="POST" action="traitement.php">
+    	<p>
+    		<td><label for="marque">MARQUE</label><br />
+    		<select name="marque" id="marque">
+    		<option value="citroen">Citroën</option>
+    		<option value="peugeot">Peugeot</option>
+    		<option value="renault">Renault</option>
+    		<option value="audi">Audi</option>
+    	</select>
+    </p>
+    <p>
+    	    <label for="gamme">GAMME</label><br />
+    	    <select name="gamme" id="gamme">
+    	    <option value="picasso">Picasso</option>
+    	    <option value="suv">SUV</option>
+    	    <option value="megane">Megane</option>
+            <option value="quatre quatre">4x4</option>
+        </select>
+    </p>
+     <p>
+     	ETAT<br />
+     	<input type="radio" name="etat" value="neuf et occasion" id="neuf et occasion" /> <label for="neuf et occasion">NEUF & OCCASION</label>
+     	<input type="radio" name="etat" value="neuf" id="neuf" /> <label for="neuf">NEUF</label>
+     	<input type="radio" name="etat" value="occasion" id="occasion" /> <label for="occasion">OCCASION</label>
+     </p>
+     <p>
+     	Prix Max(en €)<br />
+     	<input type="range" />
+
+     </p>
+     <input type="submit" value="ok"></td>
+    </form>
+</table>
+</body>
+</html>

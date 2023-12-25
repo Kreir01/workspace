@@ -1,0 +1,114 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #B0F2B6;
+}
+#epaule {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 125px; bottom: 270px;
+}
+#coude {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 230px; bottom: 175px;
+}
+#poignet {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 120px; bottom: 140px;
+}
+#hanche {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 210px; bottom: 110px;
+}
+#genou {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 155px; bottom: 30px;
+}
+#cheville {
+        width: 50px;
+        height: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border: 1px solid rgba(0, 0, 0, 1);
+        opacity: 80%;
+        position: absolute; left: 195px; bottom: -65px;
+}
+#epaule:focus {
+        opacity: 100%;outline: none;
+}
+#coude:focus {
+        opacity: 100%;outline: none;
+}
+#poignet:focus {
+        opacity: 100%;outline: none;
+}
+#hanche:focus {
+        opacity: 100%;outline: none;
+}
+#genou:focus {
+        opacity: 100%;outline: none;
+}
+#cheville:focus {
+        opacity: 100%;outline: none;
+}
+#coudehess, #hanchehess, #chevillehess {
+	width: 200px;
+	height: 500px;
+	display: none;
+	margin: 100px 75px 0 75px;
+}
+#epaulehess, #poignethess, #genouhess {
+	width: 200px;
+	height: 500px;
+	display: none;
+	margin: 100px 75px 0 75px;
+}
+#epaulehess {
+	display: block;
+} 
+h2 { 
+	color: red; 
+}
+h1 {
+	color: red;
+}
+.aff {
+	color: gray;
+}
+.principal {
+	display: flex;
+	justify-content: center;
+}
+.quad {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+}
+.secondaire {
+	display: flex;
+	justify-content: center;
+}
+

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/73/08/90/1000_F_273089037_6xYN6370MdhJlLCDPZUMUcWfpO6CUvyR.jpg");
+    background-size: cover;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+}
+
+.un {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deux {
+    font-family: 'Oswald', sans-serif;
+    font-size: 215%;
+    text-decoration: none;
+    border-radius: 17%;
+    color: firebrick;
+    transition: all 1s ease-out;
+}
+    
+.deux:hover,
+.deux:focus {
+    background-color: brown;
+    color: floralwhite;
+}
+
+h1{
+    
+    font-family: 'Oswald', sans-serif;
+    margin-top: 32vh;
+    font-size: 500%;
+    color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 span {
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+}
+
+h1 span.hover {
+    color: darkmagenta;
+    transform: scale(1.2) rotate(-20deg);
+}
+
+#two {
+    margin: 7em 0em 0em 45em;
+    border-radius: 25%;
+    width: 25%;
+    -webkit-animation: spin 60s linear infinite;
+    -moz-animation: spin 60s linear infinite;
+    animation: spin 60s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotateY(360deg);}
+}
+
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes spin {
+    100%{-webkit-transform: rotateY(360deg);}
+}
+
+#three {
+    margin: 0em 0em 0em 111em;
+}
+
+.trois {
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right , #f00,#ff0,#0ff,#0f0,#00f);
+    -webkit-background-clip: text;
+    animation: animat 20s linear infinite;
+    background-size: 1000%;
+}
+
+@keyframes animat{
+    0%{background-position: 0% 100%}
+    
+    50%{background-position: 100% 0%}
+    
+    100%{background-position: 0% 100%}
+}
